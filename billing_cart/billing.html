@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Payment</title>
+</head>
+<body class="bg-warning text-center">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark p-1 ">
+        <img class="ml-5 pl-5 pb-1"src="../img/LOGOt4.png" alt="">
+        <div class="container">
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                      <a class="nav-link text-warning h2 pl-3" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-warning h2 pl-3" href="../catalogue/catalogue.html">Catalogue</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-warning h2 pl-3" href="../contact/.html">Contact</a>
+                  </li class="nav-item">
+                  <li class="nav-item">
+                    <a class="nav-link text-warning h2 pl-3" href="../about/about.html">About</a>
+                  </li class="nav-item">
+
+    
+              </ul>
+              
+              
+            </div>
+          </div>
+     </nav>
+    
+     <div class="billing">
+        <div class="card">
+            <div class="card-body">
+            <h4 class="card-title mb-4">Payment</h4>
+            <form role="form">
+      <div class="form-group">
+      <label for="username">Name on card</label>
+      <input type="text" class="form-control" name="username" placeholder="Ex. Redalyn Justiniano" required="">
+      </div> 
+      
+      <div class="form-group">
+      <label for="cardNumber">Card number</label>
+      <div class="input-group">
+          <input type="text" class="form-control" name="cardNumber" placeholder="">
+          <div class="input-group-append">
+              <span class="input-group-text">
+                  <i class="fab fa-cc-visa"></i> &nbsp; <i class="fab fa-cc-amex"></i> &nbsp;
+                  <i class="fab fa-cc-mastercard"></i>
+              </span>
+          </div>
+      </div>
+      </div>
+      
+      <div class="row">
+          <div class="col-md flex-grow-0">
+              <div class="form-group">
+                  <label><span class="hidden-xs">Expiration</span> </label>
+                  <div class="form-inline" style="min-width: 220px">
+                      <select class="form-control" style="width:100px">
+                        <option>MM</option>
+                        <option>01 - Janiary</option>
+                        <option>02 - February</option>
+                        <option>03 - February</option>
+                      </select>
+                      <span style="width:20px; text-align: center"> / </span>
+                      <select class="form-control" style="width:100px">
+                        <option>YY</option>
+                        <option>2018</option>
+                        <option>2019</option>
+                      </select>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-3">
+              <div class="form-group">
+                  <label data-toggle="tooltip" title="" data-original-title="3 digits code on back side of the card">CVV <i class="fa fa-question-circle"></i></label>
+                  <input class="form-control" required="" type="text">
+              </div> 
+          </div>
+      </div> 
+      
+    
+      <a href="#"class="subscribe btn btn-success px-5 py-2 " type="button">Confirm</a>
+      
+      </form>
+            </div>
+          </div>
+        </div>
+
+
+
+        <footer class="bg-dark pb-2 pt-2 ">
+            <div>
+                <form action="">
+                    <table class="clearfix">
+                        <thead>
+                            <a class="mr-3" href="LinkedIn.com"> <img src="../icon/linkedin-48.png" alt="icon"></a>
+                            <a class="mr-3" href="Twitter.com"><img src="../icon/twitter-48.png" alt="icon"></a>
+                            <a class="mr-3" href="facebook.com"><img src="../icon/facebook-48.png" alt="icon"></a>
+                        </thead>
+                    </table>
+                </form>     
+                <p id="para" class="text-warning">Brasomon, All Rights Reserved 2020!</p>
+            </div>
+        </footer>
+    </div>
+<script src="jscript/jquery-3.3.1.slim.min.js"></script>
+<script src="jscript/popper.min.js"></script>
+<script src="jscript/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+
